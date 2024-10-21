@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+}
+.cabeçalho {
+background-color: hsl(180, 84%, 50%);
+color: white;
+font-size: larger;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 40px 0;
+}
+
+.cabeçalho-título {
+    width: 20%;
+}
+
+.cabeçalho-nome {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.rios-imagem {
+    width: 34%;
+    padding: 50px 85px;
+}
+
+.rios{ 
+    background-image: linear-gradient(#0e3f4d,#32b3d7);
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.rios-div-conteúdo {
+    width: 30%;
+}
+
+.rios-titulo {
+    padding: 24px 0;
+}
+
+.nascentes-imagem {
+    width: 35%;
+    align-items: center;
+}
+
+.nascentes {
+    background-image: linear-gradient(#32b3d7,#0e3f4d);
+    color: white;
+    font-size:large ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.nascentes-div-conteúdo {
+    width: 35%
+}
+
+.nascentes-titulo {
+    padding: 15px 0;
+}
+.riachos-imagem {
+    width: 35%;
+    align-items: center;
+}
+
+.riachos {
+    background-image: linear-gradient(#0e3f4d,#32b3d7);
+    color:white;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+
+}
+
+.riachos-div-conteúdo {
+    width: 35%;
+}
+
+.riachos-div-conteúdo {
+    width: 35%;
+}
+
+.riachos-titulo {
+    padding: 15px 0;
+}
